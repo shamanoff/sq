@@ -1,0 +1,85 @@
+$bg-color: #e5e5e4;
+$orange: #f36f21;
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: right;
+
+  background: $bg-color;
+  font-family: 'Heebo', sans-serif;
+
+}
+.orange{
+  color: $orange;
+}
+.bold{
+  font-weight: 600;
+}
+.line{
+  border-bottom: 4px solid  $orange;
+
+}
+.wrapper{
+  background-color: #fff;
+}
+.top{
+  padding: 3rem 6rem 3rem 6rem;
+
+  .logo{
+    margin-top: -2rem;
+  }
+  .title{
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #000;
+  }
+  .sub-title{
+    font-weight: 600;
+  }
+  @media (max-width: 770px) {
+    .logo{display: none;}
+  }
+
+  // Средние девайсы («таблетки», < 992px)
+  @media (max-width: 991.98px) {
+    padding: 1rem;
+    .title{font-size: 2rem;}
+    .sub-title{font-size: 1rem;}
+    .logo{ margin-top: 1rem;}
+  }
+
+}
+.hero{
+  background-image: url(../img/bg-hero.jpg);
+  height: 697px;
+  background-size: cover;
+  @media (max-width: 991.98px) {
+    height: 400px;
+  }
+}
+.content{
+  padding: 3rem 6rem 3rem 6rem;
+
+}
+.grid{
+  padding: 3rem 6rem 3rem 6rem;
+
+}
+.about{
+  padding-right: 6rem;
+  .title-about{
+    margin-top: 8rem;}
+  .text{color: #fff; font-size: 1.5rem;}
+  background-image: url(../img/bg-footer.jpg);
+  height: 346px;
+  background-size: cover;
+  @media (max-width: 991.98px) {
+    height: 200px;
+  }
+}
+.footer{
+  background-color: $orange;
+  height: 176px;
+}

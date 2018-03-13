@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: right;
+  background: #e5e5e4;
+  font-family: 'Heebo', sans-serif; }
+
+.orange {
+  color: #f36f21; }
+
+.bold {
+  font-weight: 600; }
+
+.line {
+  border-bottom: 4px solid #f36f21; }
+
+.wrapper {
+  background-color: #fff; }
+
+.top {
+  padding: 3rem 6rem 3rem 6rem; }
+  .top .logo {
+    margin-top: -2rem; }
+  .top .title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #000; }
+  .top .sub-title {
+    font-weight: 600; }
+  @media (max-width: 770px) {
+    .top .logo {
+      display: none; } }
+  @media (max-width: 991.98px) {
+    .top {
+      padding: 1rem; }
+      .top .title {
+        font-size: 2rem; }
+      .top .sub-title {
+        font-size: 1rem; }
+      .top .logo {
+        margin-top: 1rem; } }
+
+.hero {
+  background-image: url(../img/bg-hero.jpg);
+  height: 697px;
+  background-size: cover; }
+  @media (max-width: 991.98px) {
+    .hero {
+      height: 400px; } }
+
+.content {
+  padding: 3rem 6rem 3rem 6rem; }
+
+.grid {
+  padding: 3rem 6rem 3rem 6rem; }
+
+.about {
+  padding-right: 6rem;
+  background-image: url(../img/bg-footer.jpg);
+  height: 346px;
+  background-size: cover; }
+  .about .title-about {
+    margin-top: 8rem; }
+  .about .text {
+    color: #fff;
+    font-size: 1.5rem; }
+  @media (max-width: 991.98px) {
+    .about {
+      height: 200px; } }
+
+.footer {
+  background-color: #f36f21;
+  height: 176px; }
