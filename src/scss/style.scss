@@ -24,6 +24,7 @@ body {
 .wrapper{
   background-color: #fff;
 }
+
 .top{
   padding: 3rem 6rem 3rem 6rem;
 
@@ -39,7 +40,7 @@ body {
     font-weight: 600;
   }
   @media (max-width: 770px) {
-    .logo{display: none;}
+    //.logo{display: none;}
   }
 
   // Средние девайсы («таблетки», < 992px)

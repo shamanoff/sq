@@ -29,9 +29,6 @@ body {
     color: #000; }
   .top .sub-title {
     font-weight: 600; }
-  @media (max-width: 770px) {
-    .top .logo {
-      display: none; } }
   @media (max-width: 991.98px) {
     .top {
       padding: 1rem; }
