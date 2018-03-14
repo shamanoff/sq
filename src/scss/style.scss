@@ -65,15 +65,36 @@ body {
 }
 
 .hero {
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+  }
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+  }
+
   h2 {
     color: #fff;
     margin-top: 4rem;
     margin-bottom: 2rem;
   }
-  button{
+
+  .send{
+    font-size: 1.5rem;
+    color: white;
     height: 3rem;
     width: 100%;
-    background-color: #395e6c;
+    background-size: contain;
+    background:transparent url(../img/btn.png) no-repeat;
+    :hover{
+      background-color: transparent;
+
+    }
   }
   .form-control {
     height: 3rem;
@@ -86,9 +107,9 @@ body {
     h2 {
       color: #fff;
       margin-top: 0;
-      margin-bottom: 1.8rem;
+      margin-bottom: 1rem;
     }
-    button{
+    .send{
       height: 2.5rem;
       width: 100%;
       background-color: #395e6c;
@@ -96,7 +117,7 @@ body {
     .form-control {
       height: 2.5rem;
       width: 100%;
-      margin-bottom: 1.8rem;
+      margin-bottom: 1.2rem;
     }
   }
   @media (max-width: 991.98px) {

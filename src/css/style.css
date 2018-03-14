@@ -47,14 +47,30 @@ body {
   background-image: url(../img/bg-hero.jpg);
   height: 697px;
   background-size: cover; }
+  .hero ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1;
+    /* Firefox */ }
+  .hero :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: black; }
+  .hero ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: black; }
   .hero h2 {
     color: #fff;
     margin-top: 4rem;
     margin-bottom: 2rem; }
-  .hero button {
+  .hero .send {
+    font-size: 1.5rem;
+    color: white;
     height: 3rem;
     width: 100%;
-    background-color: #395e6c; }
+    background-size: contain;
+    background: transparent url(../img/btn.png) no-repeat; }
+    .hero .send :hover {
+      background-color: transparent; }
   .hero .form-control {
     height: 3rem;
     width: 100%;
@@ -63,15 +79,15 @@ body {
     .hero h2 {
       color: #fff;
       margin-top: 0;
-      margin-bottom: 1.8rem; }
-    .hero button {
+      margin-bottom: 1rem; }
+    .hero .send {
       height: 2.5rem;
       width: 100%;
       background-color: #395e6c; }
     .hero .form-control {
       height: 2.5rem;
       width: 100%;
-      margin-bottom: 1.8rem; } }
+      margin-bottom: 1.2rem; } }
   @media (max-width: 991.98px) {
     .hero {
       padding: 1rem; }
