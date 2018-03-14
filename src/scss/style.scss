@@ -159,8 +159,14 @@ body {
 }
 
 .grid {
+  .item .media-body p {
+    font-size: 1.8rem;
+  }
   @media (max-width: 991.98px) {
     padding: 1rem;
+    .item .media-body p {
+      font-size: 1.2rem;
+    }
   }
   padding: 3rem 6rem 3rem 6rem;
   .item {
@@ -168,9 +174,7 @@ body {
     img {
       margin-left: 2rem;
     }
-    p {
-      font-size: 1.2rem;
-    }
+
   }
 }
 

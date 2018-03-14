@@ -114,15 +114,17 @@ body {
 
 .grid {
   padding: 3rem 6rem 3rem 6rem; }
+  .grid .item .media-body p {
+    font-size: 1.8rem; }
   @media (max-width: 991.98px) {
     .grid {
-      padding: 1rem; } }
+      padding: 1rem; }
+      .grid .item .media-body p {
+        font-size: 1.2rem; } }
   .grid .item {
     margin-bottom: 2rem; }
     .grid .item img {
       margin-left: 2rem; }
-    .grid .item p {
-      font-size: 1.2rem; }
 
 .about {
   padding-right: 6rem;
