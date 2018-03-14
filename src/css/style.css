@@ -29,6 +29,9 @@ body {
     color: #000; }
   .top .sub-title {
     font-weight: 600; }
+  @media (max-width: 770px) {
+    .top .logo {
+      margin-bottom: 1.5rem; } }
   @media (max-width: 991.98px) {
     .top {
       padding: 1rem; }
@@ -40,33 +43,100 @@ body {
         margin-top: 1rem; } }
 
 .hero {
+  padding: 3rem 6rem 3rem 6rem;
   background-image: url(../img/bg-hero.jpg);
   height: 697px;
   background-size: cover; }
+  .hero h2 {
+    color: #fff;
+    margin-top: 4rem;
+    margin-bottom: 2rem; }
+  .hero button {
+    height: 3rem;
+    width: 100%;
+    background-color: #395e6c; }
+  .hero .form-control {
+    height: 3rem;
+    width: 100%;
+    margin-bottom: 2rem; }
+  @media (max-width: 1200px) {
+    .hero h2 {
+      color: #fff;
+      margin-top: 0;
+      margin-bottom: 1.8rem; }
+    .hero button {
+      height: 2.5rem;
+      width: 100%;
+      background-color: #395e6c; }
+    .hero .form-control {
+      height: 2.5rem;
+      width: 100%;
+      margin-bottom: 1.8rem; } }
   @media (max-width: 991.98px) {
     .hero {
-      height: 400px; } }
+      padding: 1rem; }
+      .hero h2 {
+        font-size: 1.5rem; } }
 
 .content {
   padding: 3rem 6rem 3rem 6rem; }
+  @media (max-width: 991.98px) {
+    .content {
+      padding: 1rem; }
+      .content h3 {
+        font-size: 1.5rem; }
+      .content h4 {
+        font-size: 1.2rem; } }
+
+.title-grid {
+  padding: 3rem 6rem 3rem 6rem; }
+  @media (max-width: 991.98px) {
+    .title-grid {
+      padding: 1rem; }
+      .title-grid h2 {
+        font-size: 1.5rem; } }
 
 .grid {
   padding: 3rem 6rem 3rem 6rem; }
+  @media (max-width: 991.98px) {
+    .grid {
+      padding: 1rem; } }
+  .grid .item {
+    margin-bottom: 2rem; }
+    .grid .item img {
+      margin-left: 2rem; }
+    .grid .item p {
+      font-size: 1.2rem; }
 
 .about {
   padding-right: 6rem;
   background-image: url(../img/bg-footer.jpg);
   height: 346px;
   background-size: cover; }
+  @media (max-width: 991.98px) {
+    .about {
+      padding: 1rem; }
+      .about h2 {
+        font-size: 1.5rem; } }
   .about .title-about {
-    margin-top: 8rem; }
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    max-width: 35%; }
   .about .text {
     color: #fff;
     font-size: 1.5rem; }
-  @media (max-width: 991.98px) {
-    .about {
-      height: 200px; } }
+  @media (max-width: 1200px) {
+    .about .text {
+      font-size: 1.2rem; }
+    .about .title-about {
+      margin-top: 4rem;
+      max-width: 50%; }
+    .about img {
+      display: none; } }
 
 .footer {
   background-color: #f36f21;
   height: 176px; }
+  .footer .white {
+    margin-left: 6rem;
+    margin-top: 2rem; }
