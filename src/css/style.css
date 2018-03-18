@@ -22,6 +22,8 @@ body {
 .top {
   padding: 3rem 6rem 3rem 6rem; }
   .top .logo {
+    height: 96px;
+    width: 186px;
     margin-top: -2rem; }
   .top .title {
     font-size: 3.5rem;
@@ -58,6 +60,9 @@ body {
   .hero ::-ms-input-placeholder {
     /* Microsoft Edge */
     color: black; }
+  .hero .capcha {
+    height: 77px;
+    width: 302px; }
   .hero h2 {
     color: #fff;
     margin-top: 4rem;
@@ -114,6 +119,9 @@ body {
 
 .grid {
   padding: 3rem 6rem 3rem 6rem; }
+  .grid .grid-icons {
+    height: 103px;
+    width: 103px; }
   .grid .item .media-body p {
     font-size: 1.8rem; }
   @media (max-width: 991.98px) {
@@ -136,6 +144,9 @@ body {
       padding: 1rem; }
       .about h2 {
         font-size: 1.5rem; } }
+  .about .rocket {
+    height: 345px;
+    width: 583px; }
   .about .title-about {
     margin-top: 8rem;
     margin-bottom: 2rem;
@@ -155,6 +166,9 @@ body {
 .footer {
   background-color: #f36f21;
   height: 176px; }
+  .footer .white {
+    height: 105px;
+    width: 204px; }
   .footer .white {
     margin-left: 6rem;
     margin-top: 2rem; }
