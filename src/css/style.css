@@ -20,11 +20,10 @@ body {
   background-color: #fff; }
 
 .top {
-  padding: 3rem 6rem 3rem 6rem; }
+  padding: 1rem 6rem 1rem 6rem; }
   .top .logo {
     height: 96px;
-    width: 186px;
-    margin-top: -2rem; }
+    width: 186px; }
   .top .title {
     font-size: 3.5rem;
     font-weight: 800;
@@ -48,7 +47,8 @@ body {
   padding: 3rem 6rem 3rem 6rem;
   background-image: url(../img/bg-hero.jpg);
   height: 697px;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
   .hero ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: black;
@@ -81,18 +81,20 @@ body {
     width: 100%;
     margin-bottom: 2rem; }
   @media (max-width: 1200px) {
-    .hero h2 {
-      color: #fff;
-      margin-top: 0;
-      margin-bottom: 1rem; }
-    .hero .send {
-      height: 2.5rem;
-      width: 100%;
-      background-color: #395e6c; }
-    .hero .form-control {
-      height: 2.5rem;
-      width: 100%;
-      margin-bottom: 1.2rem; } }
+    .hero {
+      background-position: left; }
+      .hero h2 {
+        color: #fff;
+        margin-top: 0;
+        margin-bottom: 1rem; }
+      .hero .send {
+        height: 2.5rem;
+        width: 100%;
+        background-color: #395e6c; }
+      .hero .form-control {
+        height: 2.5rem;
+        width: 100%;
+        margin-bottom: 1.2rem; } }
   @media (max-width: 991.98px) {
     .hero {
       padding: 1rem; }

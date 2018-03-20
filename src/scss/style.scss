@@ -30,12 +30,12 @@ body {
 }
 
 .top {
-  padding: 3rem 6rem 3rem 6rem;
+  padding: 1rem 6rem 1rem 6rem;
 
   .logo {
     height: 96px;
     width: 186px;
-    margin-top: -2rem;
+    //margin-top: -0rem;
   }
   .title {
     font-size: 3.5rem;
@@ -125,6 +125,8 @@ body {
       width: 100%;
       margin-bottom: 1.2rem;
     }
+    background-position: left;
+
   }
   @media (max-width: 991.98px) {
     h2 {
@@ -135,6 +137,8 @@ body {
   background-image: url(../img/bg-hero.jpg);
   height: 697px;
   background-size: cover;
+  background-position: center;
+
 
 }
 
