@@ -115,7 +115,7 @@ body {
         font-size: 1.2rem; } }
 
 .title-grid {
-  padding: 3rem 6rem 3rem 6rem; }
+  padding: 1rem 6rem 3rem 6rem; }
   @media (max-width: 991.98px) {
     .title-grid {
       padding: 1rem; }
@@ -153,7 +153,7 @@ body {
     height: 345px;
     width: 583px; }
   .about .title-about {
-    margin-top: 8rem;
+    margin-top: 6rem;
     margin-bottom: 2rem;
     max-width: 35%; }
   .about .text {
